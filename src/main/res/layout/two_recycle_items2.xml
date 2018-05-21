@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        android:background="@mipmap/smallwhitebg">
+
+        <LinearLayout
+            android:id="@+id/recycle_lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingHorizontal="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#333333"
+                android:text="陆家嘴比特币一号[二期]"
+                android:layout_marginHorizontal="8dp"/>
+            <TextView
+                android:id="@+id/item_content_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="9sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#FF8409"
+                android:background="@mipmap/mainrecycle"
+                android:text="分期投资"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:id="@+id/item_content_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="9sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#FF6A6A"
+                android:background="@mipmap/redrecycle"
+                android:text="优质项目"
+                android:layout_marginVertical="8dp"/>
+
+        </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/ttt"
+                android:layout_below="@id/recycle_lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginHorizontal="8dp"
+                android:text="订单编号:"
+                android:textSize="14sp"
+                android:textColor="@color/black_1"/>
+
+            <TextView
+                android:id="@+id/item_number"
+                android:layout_below="@id/recycle_lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="56565*********6665656"
+                android:textSize="13sp"
+                android:textColor="@color/red"
+                android:layout_centerVertical="true"
+                android:layout_marginVertical="5dp"
+                android:layout_marginLeft="80dp"/>
+
+
+            <TextView
+                android:layout_below="@id/ttt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:text="订单时间:"
+                android:textSize="14sp"
+                android:paddingLeft="5dp"
+                android:layout_marginVertical="5dp"
+                android:textColor="@color/black_1"/>
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_below="@id/ttt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="210212.12"
+            android:textSize="13sp"
+            android:textColor="@color/red"
+            android:layout_centerVertical="true"
+            android:layout_marginVertical="5dp"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:id="@+id/item_btns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/main_btn"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="500000"/>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

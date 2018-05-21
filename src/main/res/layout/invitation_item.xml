@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/root_div"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="160dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingVertical="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/yqText"
+        android:paddingTop="6dp"
+        android:text="1.推荐人需要自己先注册账号"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/yqText"
+        android:text="2.复制链接给好友进行注册"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/yqText"
+        android:text="3.好友在注册时需要在注册页面最下方填写推荐人的账号"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/yqText"
+        android:text="4.好友进行收单支付后，推荐人即可获得奖励金"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/yqText"
+        android:paddingBottom="3dp"
+        android:text="5.奖励金可以在用户中心，好友推荐中查看"/>
+
+
+</LinearLayout>

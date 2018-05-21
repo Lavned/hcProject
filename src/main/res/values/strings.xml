@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BILI</string>
+
+    <string name="item_home">首页</string>
+    <string name="item_financial">理财</string>
+    <string name="item_market">行情</string>
+    <string name="item_mine">我的</string>
+
+    <string name="app_exit_prompt">再按一次退出程序</string>
+
+
+    <string name="span_1"><Data><![CDATA[1.邀请好友购买OTC套利新月产品，即可获得其首次入金额<font color="#8951EC">0.2%</font>的奖励]]></Data></string>
+    <string name="span_2"><Data><![CDATA[2.邀请好友购买OTC套利一季产品，即可获得其首次入金额<font color="#8951EC">0.9%</font>的奖励]]></Data></string>
+    <string name="span_3"><Data><![CDATA[3.邀请好友购买OTC套利半年产品，即可获得其首次入金额<font color="#8951EC">0.2%</font>的奖励]]></Data></string>
+    <string name="span_4"><Data><![CDATA[4.邀请好友购买OTC套利全年产品，即可获得其首次入金额<font color="#8951EC">1.9%</font>的奖励]]></Data></string>
+    <string name="span_5"><Data><![CDATA[5.邀请好友购买ETF基金产品，即可获得其首次入金额<font color="#8951EC">4%</font>的奖励]]></Data></string>
+    <string name="span_6"><Data><![CDATA[6.邀请好友购买ICO，即可获得其首次入金额<font color="#8951EC">9%</font>的奖励]]></Data></string>
+    <string name="span_7"><Data><![CDATA[例如：5月1日-5月30日邀请金为8000元,在6月20日可以进行8000元的提取,提取到账时间为1-3个工作日,提取位置在<font color="#8951EC">我的账号-->好友推荐</font>]]></Data></string>
+
+    <string name="seetext">马六甲比特基金是知名数字货币投资机构,旗下拥有数字货币定期理财产品、区块链私募投资和数字货币交易所等业务。我们将提供安全有保障的投资项目,您可以将闲散资金就给有融资需求的优质企业,轻松赚取远高于银行定期存款的收益。</string>
+
+    <string name="btbbz">比特币跨境搬砖套利是指利用国内外交易所之间，或者两家国外的比特币交易所之间的价差，通过我们自己开发的自动套利机器人进行的无风险、低买高卖套利；</string>
+    <string name="ctbz">有两个平台，A平台价格低，买入一定币数量，然后提币到价格高的B平台卖掉，赚取一定差价；</string>
+    <string name="btbtl">是跨平台对冲套利；原理跟传统搬砖一样，A平台低买入币，B平台高卖出币，但是前提条件是A平台事前存入一定的资金cny，B平台已经存入等值的币，那么出现套利机会的时候，程序会在几乎小于1秒的时间内，同时在A和B平台操作，不存在时间差，规避了传统搬砖的风险；</string>
+
+
+
+</resources>

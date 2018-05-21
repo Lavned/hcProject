@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/one_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@mipmap/friendbg"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/left_arrow"
+                android:drawablePadding="2dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:gravity="center"
+                android:text="推荐好友"
+                android:textSize="13sp" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="邀请好友即可获得好友首单入金额最多"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/friend_one"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="立即邀请"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/copy_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="http://app.bit000.com/login?username=15755528960"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/fr_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@mipmap/white_btn"
+                    android:gravity="center"
+                    android:text="复制链接"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/maincolorbg"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/invitation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:drawableLeft="@mipmap/left_arrow"
+                    android:drawablePadding="2dp"
+                    android:drawableRight="@mipmap/right_arrow"
+                    android:text="邀请规则"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+                <include layout="@layout/invitation_item"></include>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@mipmap/friend_three"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="奖励规则"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/span_1"
+                    style="@style/friendText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/span_1" />
+
+                <TextView
+                    android:id="@+id/span_2"
+                    style="@style/friendText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/span_2" />
+
+                <TextView
+                    android:id="@+id/span_3"
+                    style="@style/friendText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/span_3" />
+
+                <TextView
+                    android:id="@+id/span_4"
+                    style="@style/friendText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/span_4" />
+
+                <TextView
+                    android:id="@+id/span_5"
+                    style="@style/friendText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/span_5" />
+
+                <TextView
+                    android:id="@+id/span_6"
+                    style="@style/friendText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/span_6" />
+
+                <TextView
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="注意:邀请人必须实名认证，便于每个月打款的信息审核推荐奖励情况"
+                    android:textColor="@color/red"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@mipmap/friend_two"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="20dp"
+                    android:gravity="center"
+                    android:text="推荐奖励情况"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="邀请人本月的奖励金可在下月的20日提取"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/span_7"
+                    style="@style/friendText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/span_7" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

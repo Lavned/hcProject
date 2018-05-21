@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical"
+        android:background="@mipmap/smallwhitebg">
+
+        <LinearLayout
+            android:id="@+id/recycle_lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingHorizontal="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#333333"
+                android:text="数字资产一季"
+                android:layout_marginHorizontal="8dp"/>
+            <TextView
+                android:id="@+id/item_content_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="9sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#FF8409"
+                android:background="@mipmap/mainrecycle"
+                android:text="分期投资"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:id="@+id/item_content_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="9sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#FF6A6A"
+                android:background="@mipmap/redrecycle"
+                android:text="优质项目"
+                android:layout_marginVertical="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/recycle_lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_number"
+                android:layout_below="@id/recycle_lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="随存随取"
+                android:textSize="16sp"
+                android:textColor="@color/red"/>
+
+            <TextView
+                android:id="@+id/content_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今年年化收益率"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black_1"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/recycle_lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="121dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_below="@id/recycle_lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90天"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/red"
+                />
+
+            <TextView
+                android:id="@+id/content_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="期限"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:textSize="10sp"
+                android:layout_gravity="center"
+                android:textColor="@color/black_1"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/item_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/main_btn"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="立即投资"/>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

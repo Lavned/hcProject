@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="32dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/balckbg">
+
+
+        <EditText
+            android:id="@+id/search_ed"
+            android:layout_width="200dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:background="@drawable/balckbg"
+            android:paddingLeft="8dp"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:drawableLeft="@mipmap/f_search2x"
+            android:drawablePadding="8dp"
+            android:hint="名称 金额"/>
+
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:paddingVertical="8dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/more_down"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

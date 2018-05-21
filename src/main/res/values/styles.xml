@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/spalsh</item>
+    </style>
+
+    <style name="friendText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="yqText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="seeText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="seeText2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="friendWhite">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="friendWhiteSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+
+    <style name="Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fixed_height_bottom_padding">10dp</dimen>
+
+    <!--<dimen name="fixed_height">48dp</dimen>-->
+    <dimen name="fixed_height_top_padding_inactive">-3dp
+    </dimen><!-- 8(Top Padding) - 12/2(extra padding due to badges) = 2 -->
+    <dimen name="fixed_height_top_padding_active">0dp
+    </dimen><!-- 6(Top Padding) - 12/2(extra padding due to badges) = 0 -->
+
+    <!--<dimen name="bottom_navigation_elevation">2dp</dimen>-->
+    <dimen name="bottom_navigation_height">48dp</dimen>
+    <!--<dimen name="bottom_navigation_padded_height">48dp</dimen>-->
+    <!--<dimen name="bottom_navigation_top_margin_correction">-5dp</dimen>-->
+
+    <dimen name="fixed_icon_grid">20dp</dimen>
+    <dimen name="fixed_icon_badge_grid_height">30dp
+    </dimen><!-- this adds 6 dp extra to top and bottom icon -->
+    <dimen name="fixed_icon_badge_grid_width">48dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/btassets_top"
+                android:scaleType="fitXY"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@mipmap/b_concent_bg">
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/b_icon1"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/btb11"
+                    android:textColor="@color/black_1"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="马六甲比特币基金
+ https://www.bit000.com),隶属于新加坡公司，ICO CHAIN PTE.LTD,主要做从事数字货币行业的资产管理和投资理财等业务。"/>
+
+                <ImageView
+                    android:layout_below="@id/btb11"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/b_icon2"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/btb12"
+                    android:layout_below="@id/btb11"
+                    android:textColor="@color/black_1"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="数字货币行业是全球新兴行业，数字货币总市值已经超过15000亿人民币。数字货币行业本身具有金融特性，在2015年8月份，意零金融应运而生，研发了第一款程序化套利产品，在国内各大交易所进行高频程序化套利交易。
+"/>
+
+                <ImageView
+                    android:layout_below="@id/btb12"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/b_icon3"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_below="@id/btb12"
+                    android:textColor="@color/black_1"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="成立至今，已经管理超过10亿数字资产，此后开发了一系列的金融衍生产品，如ETF指数基金，BTC指数基金以及围绕区块链投资的ICO基金。除此之外，针对基金资产流动性短板开发了资产交易平台，极大的增加了基金资产的流动性，至此依托于数字货币的金融衍生品体系逐渐扩大。今后，马六甲比特币基金将会围绕数字货币开发更多风险偏好不同的理财产品，为广大投资者带来更多选择。"/>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

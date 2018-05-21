@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/mustsee_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="认识马六甲"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@mipmap/seeline"
+            android:drawableRight="@mipmap/seeline"/>
+
+        <TextView
+            style="@style/friendText"
+            android:paddingHorizontal="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seetext"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:paddingHorizontal="25dp"
+            android:layout_marginVertical="20dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/see_re"
+                android:layout_width="124dp"
+                android:layout_height="62dp"
+                android:orientation="vertical"
+                android:background="@drawable/whitebg">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@mipmap/x_icon1" />
+                <TextView
+                    style="@style/seeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:text="平稳运营时间"/>
+
+                <TextView
+                    style="@style/seeText2"
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:text="2年5个月" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="124dp"
+                android:layout_height="62dp"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+
+                android:background="@drawable/whitebg">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@mipmap/x_icon2" />
+                <TextView
+                    style="@style/seeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:text="已付用户收益"/>
+
+                <TextView
+                    style="@style/seeText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:text="62873万元" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@id/see_re"
+                android:layout_width="124dp"
+                android:layout_height="62dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/whitebg">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@mipmap/x_icon3" />
+                <TextView
+                    style="@style/seeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:text="累计客户数量"/>
+
+                <TextView
+                    style="@style/seeText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:text="40830人" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@id/see_re"
+                android:layout_width="124dp"
+                android:layout_height="62dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/whitebg">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@mipmap/x_icon4" />
+                <TextView
+                    style="@style/seeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:text="用户投资总额"/>
+
+                <TextView
+                    style="@style/seeText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:text="99673万元" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhite"
+            android:text="行业权威"
+            android:drawableLeft="@mipmap/x_star"
+            android:drawablePadding="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhiteSmall"
+            android:text="我们曾与巴比特，巴比特论坛，Sosobtc，金色财经，比特币之家，BTC123等行业主流机构展开过深入合作。"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhite"
+            android:text="本息保障"
+            android:drawableLeft="@mipmap/x_star"
+            android:drawablePadding="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhiteSmall"
+            android:text="公司自有数字资产超过5亿，在协议范围内，能够保证投资者的资金安全问题。"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhite"
+            android:text="稳定收益"
+            android:drawableLeft="@mipmap/x_star"
+            android:drawablePadding="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhiteSmall"
+            android:text="1000元起投，无风险套利，最高年化益40%，轻松赚取数字货币行业的发展红利。"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhite"
+            android:text="用户信赖"
+            android:drawableLeft="@mipmap/x_star"
+            android:drawablePadding="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhiteSmall"
+            android:text="用户重复投资比例超过80%，深得用户信赖。"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhite"
+            android:text="快速赎回"
+            android:drawableLeft="@mipmap/x_star"
+            android:drawablePadding="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/friendWhiteSmall"
+            android:text="平台自建资产交易平台可提前转让退出，也可到期赎回。"
+            />
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
